@@ -15,4 +15,4 @@ jobs:
       - name: Build and test application
         run: |
           chmod +x mvnw
-          ./mvnw build
+          ./mvnw install
